@@ -1,0 +1,10 @@
+.env
+.vscode
+settings
+
+.idea
+__pycache__
+*.log
+stable-diffusion-webui
+MagicPrompt
+logging
