@@ -1,9 +1,8 @@
 import asyncio
 import logging
-
+from settings.settings_api import BOT_API
 from aiogram import Bot, Dispatcher
 from aiogram.enums.parse_mode import ParseMode
-from settings.api import BOT_API
 from settings.setting import *
 from handlers import commands,different_types
 

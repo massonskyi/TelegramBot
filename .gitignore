@@ -8,3 +8,4 @@ __pycache__
 stable-diffusion-webui
 MagicPrompt
 logging
+ds.py

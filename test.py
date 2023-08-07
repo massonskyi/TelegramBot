@@ -115,10 +115,11 @@ for i in r['images']:
     pnginfo.add_text("parameters", response2.json().get("info"))
     image.save('assets/img/generated/output.png', pnginfo=pnginfo)
 """
-
+"""
 import requests
 try:
     page = requests.get("http://127.0.0.1:7860")
     print(page.status_code)
 except Exception as e:
     print(e)
+""" 
